@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sentiment {
+    font-family: "Catamaran", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#twittersearch {
+    font-family: "Catamaran", sans-serif;
+    width: 65%;
+    border: 7px solid #3A3C40;
+    border-top: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-color: rgba(255, 251, 244, 0.5);;
+    padding-bottom: 5px;
+    height: 80px;
+    font-size: 70px;
+    color: #ffffff;
+    transition-duration: 0.3s;
+    background-color: transparent;
+}
+
+#twittersearch:focus {
+    outline: none;
+    border-color: #9c63b5;
+}
+
+#twittersearch::placeholder {
+    color: rgba(255, 251, 244, 0.5);
+}
+
+#submit {
+    font-family: "Catamaran", sans-serif;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 17.5%;
+    border: 0px solid;
+    background-color: rgba(255, 251, 244, 0.5);
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+#submit:hover {
+    background-color: rgba(255, 251, 244, 0.75);
+}
+
+.title {
+    color: rgba(255, 251, 244, 0.95);
+    font-family: "Dosis", sans-serif;
+    font-size:80px;
+}
+
+.subtitle {
+    font-family: "Catamaran", sans-serif;
+    font-size: 22px;
+    color: rgba(255, 251, 244, 0.95);
+}
+
+.fa-twitter-square {
+    color: rgba(156, 99, 181,0.9);
+    padding-right: 15px;
+}
+
+.header {
+    font-size: 70px;
+    margin-bottom: 70px;
+}

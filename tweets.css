@@ -1,0 +1,126 @@
+.first {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 43px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: rgba(255, 251, 244, 0.95);
+}
+
+.second {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    color: #EDEDEE;
+}
+
+.tweet-text {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left !important;
+    margin-bottom: 30px;
+}
+
+.tweet {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+    min-width: 256px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+    width: 400px;
+}
+
+.tweet-container {
+    float: left;
+    width: 50%;
+    max-height: 100%;
+    overflow: scroll;
+    text-align: right;
+}
+
+.pfp {
+    border: 0px;
+    border-radius: 100%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.tweet-container::-webkit-scrollbar {
+    display: none;
+}
+
+.profile {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.tweet-sent {
+    color: #c8c8c8;
+}
+
+.query {
+    display: inline-block;
+    color: #9c63b5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 33px;
+    background-color: rgba(255, 251, 244, 0.5);
+    border: 0px solid;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.query-label {
+    font-size: 33px;
+    font-weight: 100;
+    color: rgba(255, 251, 244, 0.95);
+    font-family: "Roboto", sans-serif;
+    text-align: left !important;
+}
+
+.container {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.tweet-img {
+    max-width: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.container-label {
+    width: 50%;
+    float: left;
+}
+
+#divider {
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff
+}
+
+#neg {
+    text-align: left;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
